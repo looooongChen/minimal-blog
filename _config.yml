@@ -1,6 +1,8 @@
 # Permalinks
 permalink:        pretty
 
+highlighter: rouge
+
 # Setup
 title:            Minimal Blog
 tagline:          'I like KISS. By KISS I means "keep it simple and stupid". '
