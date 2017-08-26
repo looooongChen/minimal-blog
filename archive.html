@@ -15,6 +15,6 @@ title: archive
 		<h3 class="content-title">{{post.date | date_to_string}}</h3>
 		{% assign date = currentdate %} 
   {% endif %}
-    <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+    <li><h4><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h4></li>
 {% endfor %}
 </ul>
