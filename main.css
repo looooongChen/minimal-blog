@@ -12,6 +12,18 @@ a {
   color: #268bd2;
 }
 
+blockquote{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  padding-top: 0px;
+  line-height: 1em;
+  vertical-align: middle;
+  background-color: rgba(200,200,200,0.5);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .col {
   max-width: 1000px;
   margin: auto;
