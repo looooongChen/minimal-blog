@@ -1,7 +1,10 @@
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    input: GFM 
+    syntax_highlighter: rouge
 # Permalinks
 permalink:        pretty
-
-highlighter: rouge
 
 # Setup
 title:            Minimal Blog
