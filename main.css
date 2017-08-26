@@ -1,0 +1,23 @@
+---
+---
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+.col {
+  max-width: 1000px;
+  margin: auto;
+}
+
+{% include css/header.css %}
+{% include css/sidebar.css %}
+{% include css/main.css %}
+{% include css/content.css %}

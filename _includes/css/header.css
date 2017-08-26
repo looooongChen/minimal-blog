@@ -1,0 +1,61 @@
+.header {
+	background: #000000;
+	color: rgb(255,255,255);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.3);
+}
+
+.header-container{
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}
+
+.header-container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-title{
+	float: left;
+	width: 50%;
+	font-family: 'Lato', sans-serif;
+}
+
+.header-title h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.header-title h4{
+	font-weight: 700;
+}
+
+.header-nav{
+	width: 50%;
+	min-width: 300px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.header-nav-item{
+	float: right;
+	color: white;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px){
+.header-nav-item{
+	clear: both;
+}
+}
+
+
+.header-nav a:hover {
+     text-shadow: 3px 3px 10px white;
+}
+

@@ -1,0 +1,25 @@
+---
+layout: default
+title: archive
+---
+
+ {% for category in site.categories %}
+  <h2 class="content-title">{{ category | first }}</h2>
+  <hr>
+	  <ul>
+		 {% for posts in category %}
+		   {% for post in posts %}
+			 {% if post.url %}
+			  <li>
+				<h4>
+				<a href="{{ post.url }}">
+				  {{ post.title }}
+				  <small class = "data-append">{{ post.date | date_to_string }}</small>
+				</a>
+				</h4>
+			  </li>
+			{% endif %}
+		  {% endfor %}
+		{% endfor %}
+	 </ul>
+ {% endfor %}

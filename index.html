@@ -1,0 +1,17 @@
+---
+layout: default
+title: home
+---
+
+{% for post in site.posts%}
+  <div>
+    <h2>
+      <a class = "content-title" href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <span class="date-undertitle">{{ post.date | date_to_string }}</span>
+    {{ post.content | strip_html | truncatewords: 100 }}
+	<a class = "readmore" href={{post.url}}>Read More</a>
+  </div>
+{% endfor %}

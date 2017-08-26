@@ -1,0 +1,20 @@
+.sidebar{
+	width: 30%;
+	min-width: 300px;
+	float: right;
+	padding: 0px 40px 0px 40px;
+}
+
+.sidebar h2{
+	font-family: 'Alegreya', serif;
+	font-style: italic;
+	line-height: 2em;
+}
+
+.sidebar li{
+	font-family: 'Copse', serif;
+	font-size: 20px;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+	letter-spacing: 0;
+}

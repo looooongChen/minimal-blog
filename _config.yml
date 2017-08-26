@@ -1,0 +1,13 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Minimal Blog
+tagline:          'I like KISS. By KISS I means "keep it simple and stupid". '
+baseurl:          /
+
+author:
+  name:           Long
+
+paginate:         5
+

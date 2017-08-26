@@ -1,0 +1,11 @@
+.main-container {
+  margin-top: 60px;
+  font-family: 'Cardo', serif;
+  margin-bottom: 80px;
+}
+
+.main-container:after{
+	content: "";
+	display: table;
+	clear: both;
+} 
