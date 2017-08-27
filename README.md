@@ -49,7 +49,6 @@ title: Use Minimal-blog
 category: Post
 ---
 ```
-<br>
 #### Add google Analytics or AdSense
 Firstly, you should have a [google analytics account](https://support.google.com/analytics/answer/1008015?hl=en) and create a new property for 
 your new site. Then copy your tracking code into the file:
