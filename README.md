@@ -61,7 +61,6 @@ into the file:
 ```
 /_includes/google-adsense.html
 ```
-<br>
 #### Change the link list to other websites
 In the sidebar, your will find a link section, where there are some links to other website. If you want to modify the list, go to file '/data/links.yml', 
 add a item like:
