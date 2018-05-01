@@ -9,13 +9,13 @@ layout: default
 <p></p>
 <h4><i><u>Schedule 1</u></i></h4>
 <ul>
-{% for book in site.data.schedule_list1 %}
-	{% if book.status == 'done' %}
-		<li>{{book.item}}，{{book.content}} &#10004 </li>
-	{% elsif book.status == 'doing' %}
-		<li>{{book.item}}，{{book.content}} &#926 </li>
+{% for item in site.data.schedule_list1 %}
+	{% if item.status == 'done' %}
+		<li>{{item.item}}，{{item.content}} &#10004 </li>
+	{% elsif item.status == 'doing' %}
+		<li>{{item.item}}，{{item.content}} &#926 </li>
 	{% else %}
-		<li>{{book.item}}，{{book.content} &#9898 </li>
+		<li>{{item.item}}，{{item.content} &#9898 </li>
 	{% endif %}
 {% endfor %}
 </ul>
@@ -25,13 +25,13 @@ layout: default
 <p></p>
 <h4><i><u>Schedule 2</u></i></h4>
 <ul>
-{% for book in site.data.schedule_list2 %}
-	{% if book.status == 'done' %}
-		<li>{{book.item}}，{{book.content}} &#10004 </li>
-	{% elsif book.status == 'doing' %}
-		<li>{{book.item}}，{{book.content}} &#926 </li>
+{% for item in site.data.schedule_list2 %}
+	{% if item.status == 'done' %}
+		<li>{{item.item}}，{{item.content}} &#10004 </li>
+	{% elsif item.status == 'doing' %}
+		<li>{{item.item}}，{{item.content}} &#926 </li>
 	{% else %}
-		<li>{{book.item}}，{{book.content} &#9898 </li>
+		<li>{{item.item}}，{{item.content} &#9898 </li>
 	{% endif %}
 {% endfor %}
 </ul>
