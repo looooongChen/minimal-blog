@@ -11,7 +11,7 @@ layout: default
 <ul>
 {% for item in site.data.schedule_list1 %}
 	{% if item.status == 'done' %}
-		<li>{{item.item}}，{{item.content}} &#10004 </li>
+		<li> hello </li>
 	{% elsif item.status == 'doing' %}
 		<li>{{item.item}}，{{item.content}} &#926 </li>
 	{% else %}
@@ -21,21 +21,6 @@ layout: default
 </ul>
 <p>&#9898: planned / &#926: doing / &#10004: done</p>
 
-
-<p></p>
-<h4><i><u>Schedule 2</u></i></h4>
-<ul>
-{% for item in site.data.schedule_list2 %}
-	{% if item.status == 'done' %}
-		<li>{{item.item}}，{{item.content}} &#10004 </li>
-	{% elsif item.status == 'doing' %}
-		<li>{{item.item}}，{{item.content}} &#926 </li>
-	{% else %}
-		<li>{{item.item}}，{{item.content} &#9898 </li>
-	{% endif %}
-{% endfor %}
-</ul>
-<p>&#9898: planned / &#926: doing / &#10004: done</p>
 
 
 
