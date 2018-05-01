@@ -3,7 +3,7 @@ layout: default
 title: home
 ---
 
-{% for post in site.posts%}
+{% for post in site.posts limit:site.article_num %}
   <div>
     <h2>
       <a class = "content-title" href="{{ post.url }}">
@@ -11,7 +11,7 @@ title: home
       </a>
     </h2>
     <span class="date-undertitle">{{ post.date | date_to_string }}</span>
-    {{ post.content | strip_html | truncatewords: 100 }}
+    {{ post.content | strip_html | truncate:150 }}
 	<a class = "readmore" href={{site.baseurl}}{{post.url}}>Read More</a>
   </div>
 {% endfor %}

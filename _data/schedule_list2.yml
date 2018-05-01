@@ -1,0 +1,9 @@
+- item: book1
+  content: author1
+  status: doing
+- item: book2
+  content: author2
+  status: doing
+- item: book3
+  content: author3
+  status: to do

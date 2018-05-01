@@ -7,7 +7,7 @@
 	</ul>
   <h2>Recent Posts</h2>
     <ul>
-      {% for post in site.posts limit site.paginate %}
+      {% for post in site.posts limit:site.recent-num %}
         <li><a href={{site.baseurl}}{{post.url}}>{{post.title}}</a></li>
       {% endfor %}
     </ul>

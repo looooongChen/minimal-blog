@@ -24,7 +24,7 @@
 }
 
 .header-title h1{
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: 700;
 }
 
@@ -43,7 +43,7 @@
 .header-nav-item{
 	float: right;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 	margin-left: 20px;
 }

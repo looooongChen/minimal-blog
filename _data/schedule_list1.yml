@@ -1,0 +1,9 @@
+- item: breakfest
+  content: breakfest is important
+  status: done
+- item: go to school
+  content: school is also important
+  status: doing
+- item: shopping
+  content: buy some food
+  status: to do
