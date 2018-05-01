@@ -11,7 +11,7 @@ layout: default
 <ul>
 {% for item in site.data.schedule_list1 %}
 	{% if item.status == 'done' %}
-		<li> planned </li>
+		<li> {{item.item}}，{{item.content}} &#10004  </li>
 	{% elsif item.status == 'doing' %}
 		<li> done </li>
 	{% else %}
